@@ -1,12 +1,18 @@
 {
-  "name": "solscan-bot",
+  "name": "solscan-alpha-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "SOLSCAN ALPHA Telegram Bot",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "node-telegram-bot-api": "0.64.0",
+    "node-fetch": "2.6.9",
+    "express": "4.18.2",
+    "dotenv": "16.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
